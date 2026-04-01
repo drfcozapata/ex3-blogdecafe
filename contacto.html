@@ -42,21 +42,23 @@
 
         <div class="contacto__bg"></div>
         <div class="contacto__formulario">
-            <form>
-                <div class="campo">
-                    <label class="campo__label" for="nombre">Nombre:</label>
-                    <input class="campo__field" type="text" name="nombre" id="nombre" placeholder="Nombre completo">
-                </div>
-                <div class="campo">
-                    <label class="campo__label" for="email">E-Mail:</label>
-                    <input class="campo__field" type="email" name="email" id="email" placeholder="Correo Electrónico">
-                </div>
-                <div class="campo">
-                    <label class="campo__label" for="mensaje">Mensaje:</label>
-                    <textarea class="campo__field campo__field--textarea" name="mensaje" id="mensaje" placeholder="Déjanos tu mensaje"></textarea>
-                </div>
-                <div class="campo">
-                    <input type="submit" value="Enviar" class="boton boton--primario">
+            <form id="formulario-contacto">
+                <div class="form">
+                    <div class="campo">
+                        <label class="campo__label" for="nombre">Nombre:</label>
+                        <input class="campo__field" type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="email">E-Mail:</label>
+                        <input class="campo__field" type="email" name="email" id="email" placeholder="Correo Electrónico">
+                    </div>
+                    <div class="campo campo--textarea">
+                        <label class="campo__label" for="mensaje">Mensaje:</label>
+                        <textarea class="campo__field campo__field--textarea" name="mensaje" id="mensaje" placeholder="Déjanos tu mensaje"></textarea>
+                    </div>
+                    <div class="campo campo--submit">
+                        <input type="submit" value="Enviar" class="boton boton--primario">
+                    </div>
                 </div>
             </form>
         </div>
@@ -80,6 +82,7 @@
     </footer>
 
     <script src="/js/modernizer.js"></script>
+    <script src="./js/formulario.js"></script>
 </body>
 
 </html>
