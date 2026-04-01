@@ -390,6 +390,7 @@ aside {
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
 }
 
 .contacto__formulario {
